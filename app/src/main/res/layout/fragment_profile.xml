@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true">
+
+
+    <LinearLayout
+        android:id="@+id/Movie1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clickable="true"
+        >
+
+
+        <ImageView
+            android:id="@+id/mImage1"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:src="@drawable/movie" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="Movie Title 1"
+                android:textColor="#720909"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mVenue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="VENUE: Location 1"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="1dp"
+                android:text="TIME: 16:00"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Movie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clickable="true">
+
+
+        <ImageView
+            android:id="@+id/mImage2"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:src="@drawable/movie" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="Movie Title 2"
+                android:textColor="#720909"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mVenue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="VENUE: Location 2"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="1dp"
+                android:text="TIME: 18:00"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Movie3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clickable="true">
+
+
+        <ImageView
+            android:id="@+id/mImage3"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:src="@drawable/movie" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="Movie Title 1"
+                android:textColor="#720909"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mVenue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="VENUE: Location 2"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="1dp"
+                android:text="TIME: 16:00"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Movie4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:clickable="true">
+
+
+        <ImageView
+            android:id="@+id/mImage4"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginRight="5dp"
+            android:padding="3dp"
+            android:src="@drawable/movie" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="Movie Title 3"
+                android:textColor="#720909"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mVenue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="2dp"
+                android:text="VENUE: Location 2"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/mTime4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/mImage1"
+                android:layout_marginBottom="1dp"
+                android:text="TIME: 13:00"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="7dp">
+    <Button
+        android:id="@+id/confirmBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_style"
+        android:text="select movie"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
